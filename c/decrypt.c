@@ -41,8 +41,8 @@ int main(int argc, char* argv[]) {
   }
 
   AES_KEY key;
-  char iv[] = "1234567890abcdef   ";
-  char* password = "0123456789abcdef    ";
+  char iv[] = "1234567890abcdef";
+  char* password = "0123456789abcdef";
 
   const char *fileName = argv[1];
   const char* outName = argv[2];

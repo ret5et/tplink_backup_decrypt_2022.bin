@@ -47,8 +47,8 @@ int main(int argc, char* argv[]) {
   }
 
   AES_KEY key;
-  char iv[] = "1234567890abcdef   ";
-  char* password = "0123456789abcdef    ";
+  char iv[] = "1234567890abcdef";
+  char* password = "0123456789abcdef";
   unsigned int size = 0x0;
 
 
